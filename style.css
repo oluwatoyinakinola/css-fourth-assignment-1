@@ -1,0 +1,57 @@
+body{
+    height: 500px;
+    width: 900px;
+    border: 1px solid black;    
+    
+}
+
+.main{
+    background-color: white;
+    color: black;
+    grid-template-columns: repeat(1fr);
+    display: flex;
+    
+}
+
+.img{
+
+    float: right;
+    margin-top: 10px;
+    margin-right: 40px;
+    flex:50%;
+    
+}
+
+h1{
+    background-color: red;
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 60px;
+    padding-top: 55px;
+    width: 250px;
+    height: 150px;
+    font: 900;
+    
+
+}
+h4{
+    text-align: center;
+    background-color: red;
+    border: 1px solid red;
+    width: 100px;
+    border-radius: 15px 15px;
+    margin-left: 50px;
+    color: white;
+    padding: 7px;
+    font-size: x-small;
+   
+}
+p{
+    color: slategray;
+    margin-left: 60px;
+}
+.column {
+    flex: 70%;
+    
+  }
